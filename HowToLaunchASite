@@ -1,0 +1,14 @@
+To launch the website, you can use Python's built-in HTTP server. Here's how to do it:
+
+Open a terminal
+Navigate to your project directory:
+bash
+cd /Users/sivakumarsaminathan/Desktop/projects/deensite
+For Python 3, run:
+bash
+python3 -m http.server 8000
+Then open your web browser and go to:
+http://localhost:8000
+The site will be served on port 8000. To stop the server, press Ctrl+C in the terminal.
+
+If you prefer a different port, just change the number (e.g., 8001 instead of 8000).
